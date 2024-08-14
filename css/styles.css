@@ -156,7 +156,7 @@ address {
 }
 
 .second-section-element {
-    width: calc((100%-72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .second-section-titles {
@@ -198,7 +198,7 @@ address {
 
 .third-section-listelement {
     background-color: #FFFFFF;
-    width: calc((100%-72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -232,7 +232,7 @@ address {
 }
 
 .forth-section-list-element {
-    width: calc((100%-48px)/3);
+    flex-basis: calc((100% - 48px) / 4);
 }
 
 .container-portfolio {
