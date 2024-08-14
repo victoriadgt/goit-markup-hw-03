@@ -1,0 +1,147 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.word-studio {
+    color: #2e2f42;
+}
+
+.menu-element {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+    text-decoration: none;
+    letter-spacing: 0.02em
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.menu-element:hover, .menu-element:focus {
+    color: #404BBF;
+}
+
+address {
+    font-style: normal;
+    text-decoration: none;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.31;
+}
+
+.address-element {
+    text-decoration: none;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address a:hover, address a:focus {
+    color: #404BBF;
+}
+
+.first-section {
+    background-color: #2E2F42;
+}
+
+.first-section-title {
+    color: #FFFFFF;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em; 
+}
+
+.first-section-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    border: 0;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em; 
+    cursor: pointer;
+}
+
+.first-section button:hover, .first-section button:focus {
+    background-color: #404BBF;
+}
+
+.second-section h2 {
+    color: white;
+}
+
+.second-section-titles {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+
+.second-section-parag {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.third-section {
+    background-color: #F4F4FD;
+    text-align: center;
+}
+
+.third-section-title {
+    font-size: 36px;
+    line-height: 1.11; 
+    text-align: center;
+    letter-spacing: 0.02em; 
+    text-transform: capitalize; 
+    color: #2e2f42;
+}
+
+.third-section-listelement {
+    background-color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-parag {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+.word-studio-footer {
+    color: #f4f4fd;
+}
