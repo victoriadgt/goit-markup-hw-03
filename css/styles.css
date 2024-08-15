@@ -161,10 +161,6 @@ img {
     gap: 24px;
 }
 
-.second-section-element {
-    flex-basis: calc((100% - 72px) / 4);
-}
-
 .second-section-titles {
     font-weight: 500;
     font-size: 20px;
@@ -172,6 +168,10 @@ img {
     color: #2e2f42;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+}
+
+.second-section-listelement {
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .second-section-parag {
