@@ -85,13 +85,13 @@ img {
     line-height: 1.31;
 }
 
-.contact-list,
-.contact-element {
+.contact,
+.contact-list {
     display: flex;
     gap: 40px;
-}
+} 
 
-.contact-element {
+.contact-link {
     text-decoration: none;
     color: #434455;
     font-weight: 400;
@@ -100,7 +100,7 @@ img {
     letter-spacing: 0.02em;
 }
 
-.contact a:hover, .contact a:focus {
+.contact-link:hover, .contact-link:focus {
     color: #404BBF;
 }
 
