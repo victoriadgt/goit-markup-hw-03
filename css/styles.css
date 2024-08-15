@@ -76,7 +76,7 @@ img {
     color: #404BBF;
 }
 
-address {
+.contact {
     font-style: normal;
     text-decoration: none;
     color: #434455;
@@ -85,13 +85,13 @@ address {
     line-height: 1.31;
 }
 
-.address, 
-.address-list {
+.contact, 
+.contact-list {
     display: flex;
     gap: 40px;
 }
 
-.address-element {
+.contact-element {
     text-decoration: none;
     color: #434455;
     font-weight: 400;
@@ -100,7 +100,7 @@ address {
     letter-spacing: 0.02em;
 }
 
-.address a:hover, address a:focus {
+.contact a:hover, .contact a:focus {
     color: #404BBF;
 }
 
@@ -161,7 +161,7 @@ address {
 }
 
 .second-section-element {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4)
 }
 
 .second-section-titles {
